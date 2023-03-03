@@ -127,11 +127,14 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
- /* da 480 in giù */
+   /* da 768px in giu */
 
- @media screen and (max-width: 480px) {
-    .col {
-      flex-wrap: wrap;
-      flex-basis: 100%;
+   @media screen and (max-width: 768px) {
+     main {
+      width: 80%;
+      margin: 0 auto;
     }
   }
+  
+
+
